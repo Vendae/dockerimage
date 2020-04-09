@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('this is hanumantharao medikonda\n');
+  res.send('docker image from terraform team \n');
 });
 
 app.listen(PORT, HOST);
