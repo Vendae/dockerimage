@@ -2,7 +2,7 @@ node {
 
     checkout scm
 
-    docker.withRegistry('https://registry.hub.docker.com', 'hanumantharao1986') {
+    docker.withRegistry('https://registry.hub.docker.com', 'hanudockerhub') {
 
         def customImage = docker.build("hanumantharao1986/dockerimageterform$BUILD_NUMBER")
 
